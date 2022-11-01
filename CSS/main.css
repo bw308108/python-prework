@@ -1,0 +1,35 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+
+nav, li{
+    display: inline;
+    margin: 20px;
+
+}
+
+nav, ul{
+    background-color: beige;
+    margin: 0;
+    padding: 20px;
+}
+nav a:hover{
+    color:red
+}
+.hero-image{
+    background-image:url(../Images/cleveland-skyline-panorama-sunset-aged-pixel.jpeg);
+    height: 30%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position: relative
+
+
+
+}
+.hero-text{
+    color: white;
+    text-align: left; 
+    position: absolute;
+}
